@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 # WinterBreak
-<a href='https://ko-fi.com/hackerdude' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+<a href='https://ko-fi.com/hackerdude' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://storage.ko-fi.com/cdn/brandasset/v2/support_me_on_kofi_dark.png' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
 > After all, all devices have their dangers. The discovery of speech introduced communication – and lies.
 > <br/>
@@ -22,6 +22,10 @@ It is based on [Mesquito](../../mesquito/)
 > RIP bricked Kindles during beta-testing
 > <br/>
 > RIP the original deadlines
+
+{: .warning}
+Mesquio does NOT work on firmware `5.18.1` and beyond.
+
 
 ## Prerequisites
 - You will need a PC
@@ -54,28 +58,34 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             </div>
         </div>
         <div class="step">
+            <h2>Rebooting</h2>
+            <div class="stepContent">
+                <p>Reboot your Kindle</p>
+                <img src="./reboot.png" />
+            </div>
+        </div>
+        <div class="step">
             <h2>Extracting WinterBreak</h2>
             <div class="stepContent">
-                <p>Plug the Kindle into your computer and extract the contents of the `WinterBreak.tar.gz` file to your Kindle</p>
+                <p>Once it has booted, plug the Kindle into your computer and extract the contents of the `WinterBreak.tar.gz` file to a safe place on your computer</p>
+                <p>Then copy the files to your Kindle (do not extract direcly to the Kindle as this may fail)</p>
                 <p class="highlight">
                     For Linux/MacOS users, ENSURE the hidden folder `.active_content_sandbox` has been copied to your Kindle
                 </p>
                 <img src="./file_list.png" />
-            </div>
-        </div>
-        <div class="step">
-            <h2>Rebooting</h2>
-            <div class="stepContent">
-                <p>Eject your Kindle from your computer and reboot it</p>
-                <img src="./reboot.png" />
+                <p class="highlight">
+                    Replace any files if you are prompted to
+                </p>
             </div>
         </div>
         <div class="step">
             <h2>Entering Mesquito</h2>
             <div class="stepContent">
-                <p>Open the Kindle Store on your Kindle</p>
+                <p>Eject the Kindle from your computer</p>
+                <p>Open the Kindle Store on your Kindle by clicking on the cart icon on the home screen</p>
                 <p>When prompted, click `yes` to turn off airplane mode</p>
                 <img src="./store_aeroplane.png" />
+                <p>Once Mesquito has loaded you can re-enable Airplane mode.</p>
             </div>
         </div>
         <div class="step">
@@ -89,7 +99,10 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             <h2>Done</h2>
             <div class="stepContent">
                 <p>Wait around 30 seconds, and your Kindle will say something along the lines of "Now you are ready to install the hotfix"</p>
-                <p>Once it does, you can move onto the post-jailbreak stage!</p>
+                <p>Once it does, turn airplane mode back on and you can move onto the post-jailbreak stage!</p>
+                <p class="highlight">
+                    If you do not see any funky text then make sure Airplane mode is disabled - turn it back on after you see the text though!
+                </p>
                 <img src="./winterbreak_run.png" />
             </div>
         </div>
@@ -129,7 +142,7 @@ If an **“Unexpected error”** occurs when you try to log in to the Kindle Sto
 - akane
 - BlackNinja
 - Gimzie
-- Human
+- Elaine Roberts
 - Lux
 - Marek
 - terra
